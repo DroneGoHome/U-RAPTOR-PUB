@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+FFT_SIZE = 1024
+SAMPLING_RATE = int(20e6)
+CENTER_FREQ = 2.447e9
+NUM_FFT_SPEC = 1500
+RECORDING_TIME = 15

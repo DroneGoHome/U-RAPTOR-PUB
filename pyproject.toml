@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aerodefence"
+version = "0.1.0"
+description = "Drone detection and classification from RF signals."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# Add your project's dependencies here.
+# For example:
+# numpy = "^1.21"
+# torch = "^1.10"
+# ultralytics = "8.0.20" 
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
