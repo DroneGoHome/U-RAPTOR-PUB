@@ -1,4 +1,11 @@
-# u-raptor
+# **CageDroneRF: A Large-Scale RF Benchmark and Toolkit for Drone Perception**
+
+This repository contains the official data processing modules, tooling, and data access information for the [CageDroneRF (CDRF) dataset](https://arxiv.org/abs/2601.03302). CDRF is a large-scale benchmark for Radio-Frequency (RF) drone detection and identification, built from real-world captures and systematically generated synthetic variants.
+
+## 🗄️ Data Access
+
+You can access the full CageDroneRF dataset using the links below:
+* **Official Request Portal:** [AeroDefense Data Request](https://aerodefense.tech/u-raptor-data-request)
 
 ## Data Module (`src/data`)
 
@@ -47,3 +54,16 @@ The primary goal of this module is to take raw signal recordings (`.dat` files) 
 3.  After processing all files, loads all entries from `tmp.json`.
 4.  Saves the aggregated metadata list into `meta_data.json` in the `dataset_path`.
 5.  Removes the temporary `tmp.json` file.
+
+## 📝 Citation
+
+If you find our dataset, code, or trained models helpful in your research, please consider citing our work:
+
+```bibtex
+@article{rostami2026cagedronerf,
+  title={CageDroneRF: A Large-Scale RF Benchmark and Toolkit for Drone Perception},
+  author={Rostami, Mohammad and Faysal, Atik and Xia, Hongtao and Kasasbeh, Hadi and Gao, Ziang and Wang, Huaxia},
+  journal={arXiv preprint arXiv:2601.03302},
+  year={2026}
+}
+```
