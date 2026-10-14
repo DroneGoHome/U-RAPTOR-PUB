@@ -67,3 +67,22 @@ If you find our dataset, code, or trained models helpful in your research, pleas
   year={2026}
 }
 ```
+
+## ⚖️ License
+
+This project is **source-available for noncommercial use only**. It is not
+licensed for commercial use.
+
+| What | License | File |
+|---|---|---|
+| Source code (everything not listed below) | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) | [`LICENSE`](LICENSE) |
+| CageDroneRF dataset, metadata files (`*meta*.json`), and trained models | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | [`LICENSE-DATA.md`](LICENSE-DATA.md) |
+| YOLO training code in `src/yolo/` (code only, not its metadata files) and `notebooks/yolo.ipynb` | [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html), because it extends [Ultralytics](https://github.com/ultralytics/ultralytics) (AGPL-3.0) | [`src/yolo/LICENSE`](src/yolo/LICENSE) |
+
+In short: you may use, study, and modify this code and data for research,
+education, and other noncommercial purposes, with attribution. You may not
+sell it, build commercial products or services on it, or train commercial
+models on the data.
+
+**Commercial licensing:** contact AeroDefense via
+[aerodefense.tech](https://aerodefense.tech).
