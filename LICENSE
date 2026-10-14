@@ -2,10 +2,11 @@ Required Notice: Copyright (c) 2025-2026 DroneGoHome (https://github.com/DroneGo
 
 This license applies to the source code and documentation in this repository,
 except:
-- src/yolo/ (code) and notebooks/yolo.ipynb, which are licensed under
-  AGPL-3.0 (see src/yolo/LICENSE), because they extend Ultralytics (AGPL-3.0);
-- the dataset, metadata files (*meta*.json), and trained models, which are
-  licensed under CC BY-NC-SA 4.0 (see LICENSE-DATA.md).
+- src/yolo/ (code), notebooks/yolo.ipynb, and YOLO checkpoints, which are
+  licensed under AGPL-3.0 (see src/yolo/LICENSE), because they extend or are
+  fine-tuned from Ultralytics (AGPL-3.0);
+- the dataset, metadata files (*meta*.json), and other trained models, which
+  are licensed under CC BY-NC-SA 4.0 (see LICENSE-DATA.md).
 See README.md, "License". For commercial licensing, contact AeroDefense via
 https://aerodefense.tech.
 
