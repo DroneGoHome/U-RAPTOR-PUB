@@ -57,7 +57,7 @@ The primary goal of this module is to take raw signal recordings (`.dat` files) 
 
 ## 📝 Citation
 
-If you find our dataset, code, or trained models helpful in your research, please consider citing our work:
+If you find our dataset, code, or trained models helpful in your research, please consider citing our work. If you share the dataset, its metadata, or released models, or adaptations of them, citing this paper is **required** as attribution under [`LICENSE-DATA.md`](LICENSE-DATA.md):
 
 ```bibtex
 @article{rostami2026cagedronerf,
@@ -67,3 +67,26 @@ If you find our dataset, code, or trained models helpful in your research, pleas
   year={2026}
 }
 ```
+
+## ⚖️ License
+
+This project is **source-available for noncommercial use only**. Except for
+the AGPL-3.0 YOLO code and YOLO checkpoints noted below, it is not licensed
+for commercial use.
+
+| What | License | File |
+|---|---|---|
+| Source code and documentation (everything not listed below) | [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) | [`LICENSE`](LICENSE) |
+| CageDroneRF dataset, metadata files (`*meta*.json`), and trained models (except YOLO checkpoints, see `LICENSE-DATA.md`) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | [`LICENSE-DATA.md`](LICENSE-DATA.md) |
+| YOLO training code in `src/yolo/` (code only, not its metadata files), `notebooks/yolo.ipynb`, and YOLO checkpoints | [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html), because they extend or are fine-tuned from [Ultralytics](https://github.com/ultralytics/ultralytics) (AGPL-3.0) | [`src/yolo/LICENSE`](src/yolo/LICENSE) |
+
+In short: you may use, study, and modify this code and data for research,
+education, and other noncommercial purposes, with attribution. You may not
+sell it, build commercial products or services on it, or train commercial
+models on the data. The AGPL-3.0 YOLO code and checkpoints may be used under
+the AGPL's own terms: if you distribute them, or run a modified version that
+users interact with over a network, you must offer those recipients or users
+the corresponding source under the AGPL.
+
+**Commercial licensing:** contact AeroDefense via
+[aerodefense.tech](https://aerodefense.tech).
