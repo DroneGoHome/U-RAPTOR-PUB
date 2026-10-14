@@ -10,7 +10,27 @@ import numpy as np
 from tqdm import tqdm
 from loguru import logger
 
-from src.data.dataset import save_to_json
+
+def save_to_json(data: Any, file_path: str) -> None:
+    """
+    Saves a Python dictionary or list to a JSON file with indentation.
+
+    Kept local to src/yolo (AGPL-3.0) instead of importing from src/data
+    (PolyForm Noncommercial), so the AGPL-covered YOLO tooling does not link
+    against noncommercial-licensed code.
+
+    Args:
+        data: The Python dictionary or list to save.
+        file_path: The path to the output JSON file.
+    """
+    try:
+        with open(file_path, 'w') as f:
+            json.dump(data, f, indent=2)
+        logger.info(f"Successfully saved data to JSON file: {file_path}")
+    except (IOError, TypeError) as e:
+        logger.error(f"Error saving data to JSON file {file_path}: {e}")
+    except Exception as e:
+        logger.error(f"An unexpected error occurred while saving to {file_path}: {e}")
 
 
 def find_first_float_index(components: list[str]) -> int:

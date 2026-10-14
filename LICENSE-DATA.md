@@ -15,7 +15,8 @@ Full legal text: <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
   raw RF recordings, processed samples, spectrograms, and annotations.
 - Dataset metadata files in this repository (for example `temp_meta.json`,
   `src/yolo/temp_meta.json`, `src/yolo/temp_test_meta.json`).
-- Trained model weights and checkpoints released by this project.
+- Trained model weights and checkpoints released by this project, except
+  YOLO checkpoints (see below).
 
 Source code is **not** covered by this file. See `LICENSE` and the "License"
 section of `README.md`.
@@ -40,6 +41,15 @@ directly. Whether a model that someone else trains on the dataset is itself
 "adapted material" depends on the jurisdiction, so this file does not claim
 that such models automatically inherit this license. Training such a model
 for a commercial purpose is still a commercial use of the dataset.
+
+## YOLO checkpoints
+
+Checkpoints produced by the YOLO pipeline in `src/yolo/` are fine-tuned from
+Ultralytics YOLO models. Ultralytics states that trained and fine-tuned YOLO
+models are licensed under AGPL-3.0 by default
+(<https://www.ultralytics.com/license>). Those checkpoints are therefore
+released under AGPL-3.0, not CC BY-NC-SA 4.0. The dataset used to train them
+remains under CC BY-NC-SA 4.0.
 
 ## Commercial use
 
