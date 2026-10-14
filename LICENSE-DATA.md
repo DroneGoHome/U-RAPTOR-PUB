@@ -24,15 +24,22 @@ section of `README.md`.
 
 You may share and adapt the dataset and models, provided that:
 
-- **Attribution**: you credit the authors and cite the CageDroneRF paper
-  (see `README.md`), link to this license, and indicate any changes.
-- **NonCommercial**: you do not use the material, or anything derived from it,
-  for commercial purposes. This includes selling it, using it to build or
-  train commercial products or services, and using it in paid work for
-  others.
-- **ShareAlike**: anything you build from the material (modified datasets,
-  derived datasets, models trained on it) is distributed under this same
-  license.
+- **Attribution**: you credit the authors by citing the CageDroneRF paper
+  (see `README.md`), link to this license, and indicate any changes. Citing
+  the paper is the manner of attribution the licensor requests under
+  Section 3(a) of the license.
+- **NonCommercial**: you do not use the material for commercial purposes.
+  This includes selling it, using it to build or train commercial products
+  or services, and using it in paid work for others.
+- **ShareAlike**: if you share adapted material (for example modified,
+  filtered, or re-annotated versions of the dataset), you share it under
+  this same license.
+
+Trained models released by this project are licensed under CC BY-NC-SA 4.0
+directly. Whether a model that someone else trains on the dataset is itself
+"adapted material" depends on the jurisdiction, so this file does not claim
+that such models automatically inherit this license. Training such a model
+for a commercial purpose is still a commercial use of the dataset.
 
 ## Commercial use
 
