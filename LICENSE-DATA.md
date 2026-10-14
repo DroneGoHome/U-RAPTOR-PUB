@@ -23,7 +23,7 @@ section of `README.md`.
 
 ## Summary (not a substitute for the legal text)
 
-You may share and adapt the dataset and models, provided that:
+You may share and adapt the dataset and the models this file covers, provided that:
 
 - **Attribution**: you credit the authors by citing the CageDroneRF paper
   (see `README.md`), link to this license, and indicate any changes. Citing
@@ -53,7 +53,8 @@ remains under CC BY-NC-SA 4.0.
 
 ## Commercial use
 
-Commercial use of the dataset or models requires a separate written license.
+Commercial use of the dataset or of the models this file covers requires a
+separate written license. YOLO checkpoints are covered by AGPL-3.0 instead.
 Contact AeroDefense via <https://aerodefense.tech>.
 
 ## Third-party data
